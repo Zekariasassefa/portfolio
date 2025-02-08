@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #00ff00;  /* Neon green to reflect the cybersecurity theme */
+}
+
+header p {
+    font-size: 1.2em;
+    color: #a5a5a5;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #2e2e2e;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #00ff00;  /* Green for cybersecurity theme */
+    font-size: 2em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #0073e6;  /* Blue color for links */
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    color: #ff6347;  /* Change color on hover */
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+a {
+    transition: color 0.3s ease;
+}
+
+footer p {
+    margin: 0;
+}

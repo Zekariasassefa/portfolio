@@ -1,0 +1,29 @@
+/* Custom Styles */
+body {
+    padding-top: 56px; /* Offset for fixed navbar */
+}
+
+.profile-picture img {
+    border: 5px solid white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+section {
+    padding: 60px 0;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.social-links a {
+    transition: all 0.3s;
+}
+
+.social-links a:hover {
+    transform: scale(1.1);
+}
